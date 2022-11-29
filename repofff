@@ -1,0 +1,14 @@
+
+import random
+list1 = [1, 2, 3, 4, 5, 6] 
+print("With list:", random.sample(list1, 3))
+   
+string = "GeeksforGeeks"
+print("With string:", random.sample(string, 4))
+  
+tuple1 = ("ankit", "geeks", "computer", "science",
+                   "portal", "scientist", "btech")
+print("With tuple:", random.sample(tuple1, 4))
+  
+set1 = {"a", "b", "c", "d", "e"}
+print("With set:", random.sample(set1, 3))
